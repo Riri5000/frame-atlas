@@ -1,0 +1,1100 @@
+{
+  "_comment": "Curated extraction of data/documentary-form-atlas.md. Tags are axis sub-category numbers (e.g. 1.3) or special tag keys (unclassified). kind: FILM | SERIES | BODY_OF_WORK | INSTITUTION. Entries with noTmdb: true are created without TMDB matching. search overrides the TMDB query when the display title differs from the TMDB title.",
+  "films": [
+    {
+      "title": "Senna",
+      "year": 2010,
+      "director": "Asif Kapadia",
+      "kind": "FILM",
+      "tags": ["1.1"],
+      "watchFirst": true,
+      "formalNote": "Defined the modern archival feature: no talking heads, present-tense storytelling built purely from race footage, home video, and broadcast archive."
+    },
+    {
+      "title": "Amy",
+      "year": 2015,
+      "director": "Asif Kapadia",
+      "kind": "FILM",
+      "tags": ["1.1", "4.7"],
+      "watchFirst": false,
+      "formalNote": "Kapadia's archival formula applied to Amy Winehouse. The archival relationship at its most ethically fraught: friends who supplied footage later objected to the film's framing."
+    },
+    {
+      "title": "Diego Maradona",
+      "year": 2019,
+      "director": "Asif Kapadia",
+      "kind": "FILM",
+      "tags": ["1.1"],
+      "watchFirst": false,
+      "formalNote": "Third of Kapadia's archival-only trilogy: no talking heads, present-tense storytelling built from archive."
+    },
+    {
+      "title": "Apollo 11",
+      "year": 2019,
+      "director": "Todd Douglas Miller",
+      "kind": "FILM",
+      "tags": ["1.1"],
+      "watchFirst": false,
+      "formalNote": "Assembled from rediscovered 65mm NASA archive and 11,000 hours of audio. No narration, no interviews, no reenactment. The archive quality is the spectacle."
+    },
+    {
+      "title": "They Shall Not Grow Old",
+      "year": 2018,
+      "director": "Peter Jackson",
+      "kind": "FILM",
+      "tags": ["1.1"],
+      "watchFirst": false,
+      "formalNote": "Restoration as technique: WWI footage retimed, colorized, with forensic lip-readers reconstructing dialogue. Worth studying for the ethics of enhancement."
+    },
+    {
+      "title": "Summer of Soul",
+      "year": 2021,
+      "director": "Questlove",
+      "kind": "FILM",
+      "tags": ["1.1"],
+      "watchFirst": false,
+      "formalNote": "Built around a single unseen archive (1969 Harlem Cultural Festival tapes) with present-day reaction interviews woven in. The rediscovery is part of the narrative."
+    },
+    {
+      "title": "The Velvet Underground",
+      "year": 2021,
+      "director": "Todd Haynes",
+      "kind": "FILM",
+      "tags": ["1.1"],
+      "watchFirst": false,
+      "formalNote": "Archival plus persistent split-screen borrowed from Warhol's Exploding Plastic Inevitable, so the form of the film mimics the aesthetic of its subject."
+    },
+    {
+      "title": "Waltz with Bashir",
+      "year": 2008,
+      "director": "Ari Folman",
+      "kind": "FILM",
+      "tags": ["1.2"],
+      "watchFirst": true,
+      "formalNote": "Animated interviews about the 1982 Lebanon war. Animation represents the unreliability of traumatic memory; the switch to real archive in the final seconds is the whole argument."
+    },
+    {
+      "title": "Flee",
+      "year": 2021,
+      "director": "Jonas Poher Rasmussen",
+      "kind": "FILM",
+      "tags": ["1.2"],
+      "watchFirst": false,
+      "formalNote": "Animation protects the anonymity of an Afghan refugee while allowing full emotional intimacy. First film Oscar-nominated for documentary, animated feature, and international feature simultaneously."
+    },
+    {
+      "title": "Tower",
+      "year": 2016,
+      "director": "Keith Maitland",
+      "kind": "FILM",
+      "tags": ["1.2"],
+      "watchFirst": false,
+      "formalNote": "Rotoscoped reenactments of the 1966 UT Austin shooting, blended with archive. Rotoscope lets survivors appear as their younger selves."
+    },
+    {
+      "title": "Fire of Love",
+      "year": 2022,
+      "director": "Sara Dosa",
+      "kind": "FILM",
+      "tags": ["1.1", "1.2"],
+      "watchFirst": false,
+      "formalNote": "Primarily archival (the Kraffts' own volcano footage) but uses paper-cutout animation for gaps. A good study in mixing archival-only and animation."
+    },
+    {
+      "title": "Midnight Traveler",
+      "year": 2019,
+      "director": "Hassan Fazili",
+      "kind": "FILM",
+      "tags": ["1.3"],
+      "watchFirst": true,
+      "formalNote": "An Afghan family's three-year refugee journey filmed entirely on three mobile phones by the family themselves. The constraint is total and the intimacy is unmatched."
+    },
+    {
+      "title": "For Sama",
+      "year": 2019,
+      "director": "Waad al-Kateab",
+      "kind": "FILM",
+      "tags": ["1.3", "3.6"],
+      "watchFirst": false,
+      "formalNote": "Five years of self-shot footage in besieged Aleppo, framed as a letter to the filmmaker's daughter. First-person capture plus epistolary structure."
+    },
+    {
+      "title": "20 Days in Mariupol",
+      "year": 2023,
+      "director": "Mstyslav Chernov",
+      "kind": "FILM",
+      "tags": ["1.3"],
+      "watchFirst": false,
+      "formalNote": "A news journalist's own footage recut as cinema; the story includes the mechanics of getting the footage out."
+    },
+    {
+      "title": "Born into Brothels",
+      "year": 2004,
+      "director": "Zana Briski",
+      "kind": "FILM",
+      "tags": ["1.3", "4.5"],
+      "watchFirst": false,
+      "formalNote": "Children given still cameras; their photographs become both the method and a plot engine. The canonical participatory-media example, also much critiqued: participation as method but not as authorship."
+    },
+    {
+      "title": "The Territory",
+      "year": 2022,
+      "director": "Alex Pritz",
+      "kind": "FILM",
+      "tags": ["1.3", "4.5"],
+      "watchFirst": false,
+      "formalNote": "Mid-production, the Uru-eu-wau-wau community took over their own cinematography during COVID and received co-production credit. A modern model for shared authorship."
+    },
+    {
+      "title": "Leviathan",
+      "year": 2012,
+      "director": "Lucien Castaing-Taylor, Verena Paravel",
+      "kind": "FILM",
+      "tags": ["1.4"],
+      "watchFirst": true,
+      "formalNote": "Dozens of GoPros attached to a fishing trawler, to fishermen, tossed into fish bins and underwater. No interviews, no context, pure sensation. Launched the Sensory Ethnography Lab school."
+    },
+    {
+      "title": "Gunda",
+      "year": 2020,
+      "director": "Viktor Kossakovsky",
+      "kind": "FILM",
+      "tags": ["1.4"],
+      "watchFirst": false,
+      "formalNote": "Black and white, animal-height cameras, no music, no narration, no humans. The technique forces you to watch a pig as a protagonist."
+    },
+    {
+      "title": "Cow",
+      "year": 2021,
+      "director": "Andrea Arnold",
+      "kind": "FILM",
+      "tags": ["1.4"],
+      "watchFirst": false,
+      "formalNote": "Animal-height commitment applied to a single dairy cow over years, with a harsher industrial framing."
+    },
+    {
+      "title": "Chasing Ice",
+      "year": 2012,
+      "director": "Jeff Orlowski",
+      "kind": "FILM",
+      "tags": ["1.4"],
+      "watchFirst": false,
+      "formalNote": "Time-lapse rigs left on glaciers for years. Building and maintaining the camera systems is the narrative spine, and the resulting images are the evidence."
+    },
+    {
+      "title": "Present.Perfect.",
+      "year": 2019,
+      "director": "Shengze Zhu",
+      "kind": "FILM",
+      "tags": ["1.5"],
+      "watchFirst": false,
+      "formalNote": "Assembled entirely from Chinese livestream broadcasts. The director never filmed anything; she watched and curated hundreds of hours of streams."
+    },
+    {
+      "title": "Put Your Soul on Your Hand and Walk",
+      "year": 2025,
+      "director": "Sepideh Farsi",
+      "kind": "FILM",
+      "tags": ["1.5"],
+      "watchFirst": true,
+      "formalNote": "Constructed from a year of video calls with Gaza photojournalist Fatma Hassona. The low-res call footage is the point: distance, fragility of connection, and what a phone link can and cannot carry."
+    },
+    {
+      "title": "Transformers: The Premake",
+      "year": 2014,
+      "director": "Kevin B. Lee",
+      "kind": "FILM",
+      "tags": ["1.5"],
+      "watchFirst": false,
+      "formalNote": "A desktop documentary made inside a computer screen, analyzing a blockbuster through YouTube clips, maps, and browser windows. Foundational for the desktop-doc form."
+    },
+    {
+      "title": "Welcome to Chechnya",
+      "year": 2020,
+      "director": "David France",
+      "kind": "FILM",
+      "tags": ["1.6"],
+      "watchFirst": true,
+      "formalNote": "AI face-swapping (digital veils) protects LGBTQ+ activists while preserving their real facial emotion. The moment a subject removes the veil on screen is a formal event in the story."
+    },
+    {
+      "title": "Another Body",
+      "year": 2023,
+      "director": "Sophie Compton, Reuben Hamlyn",
+      "kind": "FILM",
+      "tags": ["1.6"],
+      "watchFirst": false,
+      "formalNote": "A deepfake-abuse victim is herself protected by a consensual deepfake face. The technique mirrors the subject perfectly."
+    },
+    {
+      "title": "Roadrunner",
+      "year": 2021,
+      "director": "Morgan Neville",
+      "kind": "FILM",
+      "tags": ["1.6"],
+      "watchFirst": false,
+      "formalNote": "Used AI-synthesized Anthony Bourdain voice for a few lines without disclosure. The cautionary ethics case for voice synthesis.",
+      "search": { "query": "Roadrunner: A Film About Anthony Bourdain", "year": 2021 }
+    },
+    {
+      "title": "Cave of Forgotten Dreams",
+      "year": 2010,
+      "director": "Werner Herzog",
+      "kind": "FILM",
+      "tags": ["1.7"],
+      "watchFirst": false,
+      "formalNote": "3D justified by subject: the Chauvet cave paintings were made on curved rock, and depth is essential to seeing them as their makers did."
+    },
+    {
+      "title": "Pina",
+      "year": 2011,
+      "director": "Wim Wenders",
+      "kind": "FILM",
+      "tags": ["1.7"],
+      "watchFirst": false,
+      "formalNote": "3D for dance, capturing choreography's spatial dimension that flat film loses."
+    },
+    {
+      "title": "2000 Meters to Andriivka",
+      "year": 2025,
+      "director": "Mstyslav Chernov",
+      "kind": "FILM",
+      "tags": ["1.7"],
+      "watchFirst": false,
+      "formalNote": "Ukrainian assault filmed largely through soldiers' bodycams and drone feeds, stitched into near-continuous forward movement. Operational military footage as first-person cinema."
+    },
+    {
+      "title": "Eno",
+      "year": 2024,
+      "director": "Gary Hustwit",
+      "kind": "FILM",
+      "tags": ["1.8", "5.7"],
+      "watchFirst": false,
+      "formalNote": "Software generates a different cut at every screening; no two audiences see the same film. Form matches Eno's generative music philosophy. The defining example of generative documentary."
+    },
+    {
+      "title": "The Fog of War",
+      "year": 2003,
+      "director": "Errol Morris",
+      "kind": "FILM",
+      "tags": ["2.1"],
+      "watchFirst": true,
+      "formalNote": "The Interrotron: a modified teleprompter rig that lets the subject look directly into the lens while seeing Morris' face. Direct eye contact with the audience."
+    },
+    {
+      "title": "Beckham",
+      "year": 2023,
+      "director": "Fisher Stevens",
+      "kind": "SERIES",
+      "tags": ["2.1"],
+      "watchFirst": false,
+      "formalNote": "A replay screen beside the lens shows subjects footage of decisive moments while a tight lens captures their unguarded reaction. The interview becomes about watching someone remember."
+    },
+    {
+      "title": "Look into My Eyes",
+      "year": 2024,
+      "director": "Lana Wilson",
+      "kind": "FILM",
+      "tags": ["2.1"],
+      "watchFirst": false,
+      "formalNote": "Psychic readings filmed as intimate two-person sessions in natural light, with no captions, narration, or music. The interview is a session between subjects, not between subject and filmmaker."
+    },
+    {
+      "title": "Shoah",
+      "year": 1985,
+      "director": "Claude Lanzmann",
+      "kind": "FILM",
+      "tags": ["2.2", "5.4"],
+      "watchFirst": true,
+      "formalNote": "Nine and a half hours, zero archival footage. Only present-day testimony and the landscapes where the Holocaust happened. Duration as moral refusal of summary."
+    },
+    {
+      "title": "The Look of Silence",
+      "year": 2014,
+      "director": "Joshua Oppenheimer",
+      "kind": "FILM",
+      "tags": ["2.2"],
+      "watchFirst": false,
+      "formalNote": "An optometrist whose brother was murdered in the 1965 Indonesian genocide interviews the killers while fitting them for glasses. The eye-test frame gives the confrontation a devastating formal logic."
+    },
+    {
+      "title": "The Act of Killing",
+      "year": 2012,
+      "director": "Joshua Oppenheimer",
+      "kind": "FILM",
+      "tags": ["2.3"],
+      "watchFirst": true,
+      "formalNote": "Death squad leaders restage their killings in the film genres of their choice. The gap between their self-image and their acts becomes visible on camera. Arguably the most influential formal invention in 21st century documentary."
+    },
+    {
+      "title": "Procession",
+      "year": 2021,
+      "director": "Robert Greene",
+      "kind": "FILM",
+      "tags": ["2.3"],
+      "watchFirst": false,
+      "formalNote": "Six survivors of clergy abuse write and direct their own reenactment scenes, with a drama therapist involved throughout. Direction as therapy, therapy as film."
+    },
+    {
+      "title": "Casting JonBenet",
+      "year": 2017,
+      "director": "Kitty Green",
+      "kind": "FILM",
+      "tags": ["2.3"],
+      "watchFirst": false,
+      "formalNote": "Local actors audition for roles in a film that never gets made. Audition-room monologues expose a community's theories, projections, and private griefs. The casting session replaces the interview entirely."
+    },
+    {
+      "title": "Bisbee '17",
+      "year": 2018,
+      "director": "Robert Greene",
+      "kind": "FILM",
+      "tags": ["2.3", "unclassified"],
+      "watchFirst": false,
+      "formalNote": "An entire town restages a 1917 mass deportation of miners. Civic-scale reenactment as collective interview."
+    },
+    {
+      "title": "The Arbor",
+      "year": 2010,
+      "director": "Clio Barnard",
+      "kind": "FILM",
+      "tags": ["2.4"],
+      "watchFirst": true,
+      "formalNote": "Actors lip-sync precisely to real recorded interviews about playwright Andrea Dunbar. The visible seam between real voice and performing body keeps you constantly aware of mediation."
+    },
+    {
+      "title": "Frederick Wiseman: institutional portraits",
+      "year": null,
+      "director": "Frederick Wiseman",
+      "kind": "BODY_OF_WORK",
+      "tags": ["2.5"],
+      "watchFirst": true,
+      "formalNote": "From Titicut Follies (1967) through Menus-Plaisirs (2023): six decades of institutional portraits with no interviews, narration, captions, or music. Structure emerges purely in the edit. Watch any one.",
+      "noTmdb": true
+    },
+    {
+      "title": "National Gallery",
+      "year": 2014,
+      "director": "Frederick Wiseman",
+      "kind": "FILM",
+      "tags": ["2.5"],
+      "watchFirst": false,
+      "formalNote": "A representative late Wiseman: an institution observed with no interviews, narration, captions, or music."
+    },
+    {
+      "title": "Titicut Follies",
+      "year": 1967,
+      "director": "Frederick Wiseman",
+      "kind": "FILM",
+      "tags": ["2.5"],
+      "watchFirst": false,
+      "formalNote": "The start of Wiseman's six-decade project of institutional portraits without interviews or narration."
+    },
+    {
+      "title": "Menus-Plaisirs - Les Troisgros",
+      "year": 2023,
+      "director": "Frederick Wiseman",
+      "kind": "FILM",
+      "tags": ["2.5"],
+      "watchFirst": false,
+      "formalNote": "Wiseman's method still intact six decades on: pure observation, structure found in the edit.",
+      "search": { "query": "Menus-Plaisirs Les Troisgros", "year": 2023 }
+    },
+    {
+      "title": "Salesman",
+      "year": 1969,
+      "director": "Albert Maysles, David Maysles",
+      "kind": "FILM",
+      "tags": ["2.5"],
+      "watchFirst": false,
+      "formalNote": "American direct cinema: presence without formal interview."
+    },
+    {
+      "title": "Grey Gardens",
+      "year": 1975,
+      "director": "Albert Maysles, David Maysles",
+      "kind": "FILM",
+      "tags": ["2.5"],
+      "watchFirst": false,
+      "formalNote": "Direct cinema that lets subjects address the camera conversationally without formal interviews."
+    },
+    {
+      "title": "Honeyland",
+      "year": 2019,
+      "director": "Tamara Kotevska, Ljubomir Stefanov",
+      "kind": "FILM",
+      "tags": ["2.5"],
+      "watchFirst": false,
+      "formalNote": "Three years of pure observation of a Macedonian beekeeper; narrative arc entirely found, never asked for."
+    },
+    {
+      "title": "20,000 Days on Earth",
+      "year": 2014,
+      "director": "Iain Forsyth, Jane Pollard",
+      "kind": "FILM",
+      "tags": ["2.6"],
+      "watchFirst": true,
+      "formalNote": "Nick Cave's day is entirely constructed: scripted drives with ghosts from his past in the passenger seat, a psychoanalyst session as the interview device. Staged frame, real disclosure."
+    },
+    {
+      "title": "Faces Places",
+      "year": 2017,
+      "director": "Agnes Varda, JR",
+      "kind": "FILM",
+      "tags": ["2.6"],
+      "watchFirst": false,
+      "formalNote": "Encounters rather than interviews: the filmmakers' road trip and friendship is the elicitation method."
+    },
+    {
+      "title": "The Gleaners and I",
+      "year": 2000,
+      "director": "Agnes Varda",
+      "kind": "FILM",
+      "tags": ["2.6"],
+      "watchFirst": false,
+      "formalNote": "Varda's late style: conversation as gleaning."
+    },
+    {
+      "title": "The Beaches of Agnes",
+      "year": 2008,
+      "director": "Agnes Varda",
+      "kind": "FILM",
+      "tags": ["2.6"],
+      "watchFirst": false,
+      "formalNote": "Varda's self-portrait in the conversational, essayistic late style.",
+      "search": { "query": "The Beaches of Agnes", "year": 2008 }
+    },
+    {
+      "title": "Grizzly Man",
+      "year": 2005,
+      "director": "Werner Herzog",
+      "kind": "FILM",
+      "tags": ["2.6", "4.4"],
+      "watchFirst": false,
+      "formalNote": "Herzog listens on camera to the audio of Treadwell's death and refuses to let us hear it: the withheld interview as ethical statement. In narration he argues with his dead subject's worldview, a posthumous debate between two filmmakers."
+    },
+    {
+      "title": "Sr.",
+      "year": 2022,
+      "director": "Chris Smith",
+      "kind": "FILM",
+      "tags": ["2.6"],
+      "watchFirst": false,
+      "formalNote": "Robert Downey Jr. interviews his dying father while the father simultaneously edits his own version of the film. Two films arguing with each other."
+    },
+    {
+      "title": "The Jinx",
+      "year": 2015,
+      "director": "Andrew Jarecki",
+      "kind": "SERIES",
+      "tags": ["2.7", "5.3"],
+      "watchFirst": true,
+      "formalNote": "The hot-mic bathroom monologue: the interview setting itself became evidence in a murder trial. Also the series format's capacity for a cliffhanger becoming a news event.",
+      "search": { "query": "The Jinx: The Life and Deaths of Robert Durst", "year": 2015 }
+    },
+    {
+      "title": "Navalny",
+      "year": 2022,
+      "director": "Daniel Roher",
+      "kind": "FILM",
+      "tags": ["2.7"],
+      "watchFirst": false,
+      "formalNote": "Navalny prank-calls his own would-be assassins on camera and extracts a confession in real time. The sting call as centerpiece scene."
+    },
+    {
+      "title": "The Mole",
+      "year": 2020,
+      "director": "Mads Brugger",
+      "kind": "SERIES",
+      "tags": ["2.7", "unclassified"],
+      "watchFirst": false,
+      "formalNote": "Ten years of hidden-camera infiltration of North Korean arms dealing by a civilian. Every conversation is simultaneously an interview and an undercover operation.",
+      "search": { "query": "The Mole: Undercover in North Korea", "year": 2020 }
+    },
+    {
+      "title": "The Work",
+      "year": 2017,
+      "director": "Jairus McLeary, Gethin Aldous",
+      "kind": "FILM",
+      "tags": ["2.8"],
+      "watchFirst": true,
+      "formalNote": "Four days inside group therapy at Folsom Prison. No sit-down interviews; the group session's own emotional mechanics replace every conventional elicitation tool."
+    },
+    {
+      "title": "Man on Wire",
+      "year": 2008,
+      "director": "James Marsh",
+      "kind": "FILM",
+      "tags": ["3.1"],
+      "watchFirst": true,
+      "formalNote": "Philippe Petit's 1974 World Trade Center walk told as a heist movie. Proof that structure alone can transform archive plus interview into cinema."
+    },
+    {
+      "title": "The Imposter",
+      "year": 2012,
+      "director": "Bart Layton",
+      "kind": "FILM",
+      "tags": ["3.1"],
+      "watchFirst": false,
+      "formalNote": "A con man narrates his own deception directly to camera, and the film lets him con the audience too before pulling the rug. Unreliable narrator as structural principle."
+    },
+    {
+      "title": "Icarus",
+      "year": 2017,
+      "director": "Bryan Fogel",
+      "kind": "FILM",
+      "tags": ["3.1"],
+      "watchFirst": false,
+      "formalNote": "Starts as a self-experiment about doping, then transforms into a geopolitical thriller mid-stream. The gold standard for a documentary that changes genre while you watch."
+    },
+    {
+      "title": "Free Solo",
+      "year": 2018,
+      "director": "Jimmy Chin, Elizabeth Chai Vasarhelyi",
+      "kind": "FILM",
+      "tags": ["3.1"],
+      "watchFirst": false,
+      "formalNote": "Engineering suspense when the outcome is publicly known, partly by making the crew's fear of filming a death part of the story."
+    },
+    {
+      "title": "Searching for Sugar Man",
+      "year": 2012,
+      "director": "Malik Bendjelloul",
+      "kind": "FILM",
+      "tags": ["3.1"],
+      "watchFirst": false,
+      "formalNote": "Structured as a detective mystery, withholding a fact known to millions of South Africans to preserve the reveal for everyone else."
+    },
+    {
+      "title": "Three Identical Strangers",
+      "year": 2018,
+      "director": "Tim Wardle",
+      "kind": "FILM",
+      "tags": ["3.1"],
+      "watchFirst": false,
+      "formalNote": "A cascade structure: each act detonates the premise of the previous one, from feel-good reunion to ethics horror story."
+    },
+    {
+      "title": "Dear Zachary",
+      "year": 2008,
+      "director": "Kurt Kuenne",
+      "kind": "FILM",
+      "tags": ["3.2"],
+      "watchFirst": true,
+      "formalNote": "A memorial film whose mid-film and late-film revelations are structured for maximum devastation. The extreme case of editing as emotional engineering.",
+      "search": { "query": "Dear Zachary: A Letter to a Son About His Father", "year": 2008 }
+    },
+    {
+      "title": "Capturing the Friedmans",
+      "year": 2003,
+      "director": "Andrew Jarecki",
+      "kind": "FILM",
+      "tags": ["3.2"],
+      "watchFirst": false,
+      "formalNote": "Contradictory home movies and testimony arranged so certainty keeps dissolving. The structure refuses to adjudicate."
+    },
+    {
+      "title": "The Thin Blue Line",
+      "year": 1988,
+      "director": "Errol Morris",
+      "kind": "FILM",
+      "tags": ["3.3", "2.1"],
+      "watchFirst": true,
+      "formalNote": "The roadside shooting reenacted again and again, each version reflecting a different witness's claim. Repetition exposes testimony as construction, and the film freed an innocent man."
+    },
+    {
+      "title": "Sans Soleil",
+      "year": 1983,
+      "director": "Chris Marker",
+      "kind": "FILM",
+      "tags": ["3.4"],
+      "watchFirst": true,
+      "formalNote": "Fictional letters from an invented cameraman, read by an unnamed woman, drifting across Japan, Guinea-Bissau, and memory itself. The headwater of the entire essay tradition."
+    },
+    {
+      "title": "F for Fake",
+      "year": 1973,
+      "director": "Orson Welles",
+      "kind": "FILM",
+      "tags": ["3.4"],
+      "watchFirst": false,
+      "formalNote": "An essay about forgery that forges itself: Welles promises to tell the truth for one hour, then exploits the expiry of that promise. Editing as sleight of hand."
+    },
+    {
+      "title": "Cameraperson",
+      "year": 2016,
+      "director": "Kirsten Johnson",
+      "kind": "FILM",
+      "tags": ["3.4"],
+      "watchFirst": false,
+      "formalNote": "A memoir assembled entirely from outtakes of other people's films the cinematographer shot over 25 years. Structure by resonance rather than argument."
+    },
+    {
+      "title": "13th",
+      "year": 2016,
+      "director": "Ava DuVernay",
+      "kind": "FILM",
+      "tags": ["3.4"],
+      "watchFirst": false,
+      "formalNote": "The argumentative essay at full force: a single thesis prosecuted across 150 years of evidence."
+    },
+    {
+      "title": "Soundtrack to a Coup d'Etat",
+      "year": 2024,
+      "director": "Johan Grimonprez",
+      "kind": "FILM",
+      "tags": ["3.4"],
+      "watchFirst": false,
+      "formalNote": "The Lumumba assassination cut to the rhythms of jazz, with musicians as both soundtrack and historical actors. Montage-as-argument at a density few films attempt."
+    },
+    {
+      "title": "Stories We Tell",
+      "year": 2012,
+      "director": "Sarah Polley",
+      "kind": "FILM",
+      "tags": ["3.5"],
+      "watchFirst": true,
+      "formalNote": "A family secret investigated through competing family narrators, with archival Super 8 footage revealed late to be staged reconstruction. The reveal reframes everything you trusted."
+    },
+    {
+      "title": "Close-Up",
+      "year": 1990,
+      "director": "Abbas Kiarostami",
+      "kind": "FILM",
+      "tags": ["3.5"],
+      "watchFirst": false,
+      "formalNote": "A real trial of a man who impersonated a filmmaker, with all participants replaying their own roles. The founding text of fiction/nonfiction hybrid structure."
+    },
+    {
+      "title": "Wormwood",
+      "year": 2017,
+      "director": "Errol Morris",
+      "kind": "SERIES",
+      "tags": ["3.5"],
+      "watchFirst": false,
+      "formalNote": "Interviews interleaved with lavish scripted drama. Docudrama not as reenactment filler but as a co-equal narrative strand."
+    },
+    {
+      "title": "News from Home",
+      "year": 1976,
+      "director": "Chantal Akerman",
+      "kind": "FILM",
+      "tags": ["3.6"],
+      "watchFirst": true,
+      "formalNote": "Static shots of New York while Akerman reads her mother's increasingly plaintive letters from Belgium. Distance between image and text is the entire emotional content."
+    },
+    {
+      "title": "Time",
+      "year": 2020,
+      "director": "Garrett Bradley",
+      "kind": "FILM",
+      "tags": ["3.6"],
+      "watchFirst": false,
+      "formalNote": "Two decades of a mother's home-video diaries braided non-chronologically with the present, collapsing past and present into one continuous act of waiting."
+    },
+    {
+      "title": "Man with a Movie Camera",
+      "year": 1929,
+      "director": "Dziga Vertov",
+      "kind": "FILM",
+      "tags": ["3.7"],
+      "watchFirst": true,
+      "formalNote": "The city symphony and the reflexive documentary invented simultaneously, a century ago, and still formally ahead of most contemporary work."
+    },
+    {
+      "title": "Koyaanisqatsi",
+      "year": 1982,
+      "director": "Godfrey Reggio",
+      "kind": "FILM",
+      "tags": ["3.7"],
+      "watchFirst": false,
+      "formalNote": "Image and Philip Glass score in strict partnership; the argument about technology and speed is carried entirely by rhythm."
+    },
+    {
+      "title": "Samsara",
+      "year": 2011,
+      "director": "Ron Fricke",
+      "kind": "FILM",
+      "tags": ["3.7"],
+      "watchFirst": false,
+      "formalNote": "The 70mm globe-spanning successor; useful for studying how motif placement substitutes for narrative."
+    },
+    {
+      "title": "Dahomey",
+      "year": 2024,
+      "director": "Mati Diop",
+      "kind": "FILM",
+      "tags": ["3.8"],
+      "watchFirst": true,
+      "formalNote": "Twenty-six looted royal artifacts return from Paris to Benin, and one of them narrates in a processed, subterranean voice. The impossible narrator reframes restitution from the object's point of view."
+    },
+    {
+      "title": "Aanikoobijigan",
+      "year": 2026,
+      "director": "Adam Khalil, Zack Khalil",
+      "kind": "FILM",
+      "tags": ["3.8"],
+      "watchFirst": false,
+      "formalNote": "Anishinaabe ancestors trapped in museum archives bend time and space to find their way home. A companion piece to Dahomey and possibly the start of a movement."
+    },
+    {
+      "title": "The Up Series",
+      "year": 1964,
+      "director": "Michael Apted",
+      "kind": "SERIES",
+      "tags": ["4.1"],
+      "watchFirst": true,
+      "formalNote": "Fourteen British children revisited every seven years for 56 years. The subjects' evolving resentment and negotiation of the project is increasingly part of the films themselves.",
+      "search": { "query": "The Up Series", "year": null }
+    },
+    {
+      "title": "Hoop Dreams",
+      "year": 1994,
+      "director": "Steve James",
+      "kind": "FILM",
+      "tags": ["4.1"],
+      "watchFirst": false,
+      "formalNote": "Five years with two Chicago basketball hopefuls; the film's honesty about class and dashed promise came from duration no shoot schedule could fake."
+    },
+    {
+      "title": "Quest",
+      "year": 2017,
+      "director": "Jonathan Olshefski",
+      "kind": "FILM",
+      "tags": ["4.1"],
+      "watchFirst": false,
+      "formalNote": "Ten years with one North Philadelphia family, begun as a photo essay. The modest, patient model of embedding."
+    },
+    {
+      "title": "The Staircase",
+      "year": 2004,
+      "director": "Jean-Xavier de Lestrade",
+      "kind": "SERIES",
+      "tags": ["4.1"],
+      "watchFirst": false,
+      "formalNote": "Sixteen years following a murder case, complicated by the revelation that the editor fell in love with the subject during production. A landmark ethics case study about proximity."
+    },
+    {
+      "title": "Minding the Gap",
+      "year": 2018,
+      "director": "Bing Liu",
+      "kind": "FILM",
+      "tags": ["4.2"],
+      "watchFirst": true,
+      "formalNote": "Liu films his own skateboarding friends over twelve years, then turns the camera on his own history of domestic abuse. The moment the director becomes a subject is the film's hinge."
+    },
+    {
+      "title": "Strong Island",
+      "year": 2017,
+      "director": "Yance Ford",
+      "kind": "FILM",
+      "tags": ["4.2"],
+      "watchFirst": false,
+      "formalNote": "The director investigates the killing of his own brother and the justice system's indifference, addressing the camera in extreme close-up. Grief as method."
+    },
+    {
+      "title": "Dick Johnson Is Dead",
+      "year": 2020,
+      "director": "Kirsten Johnson",
+      "kind": "FILM",
+      "tags": ["4.3"],
+      "watchFirst": true,
+      "formalNote": "Johnson repeatedly stages her father's death and heaven in slapstick fantasy sequences, with his delighted participation, as a way of pre-grieving his dementia together. Collaboration as an act of love."
+    },
+    {
+      "title": "The Missing Picture",
+      "year": 2013,
+      "director": "Rithy Panh",
+      "kind": "FILM",
+      "tags": ["4.3"],
+      "watchFirst": false,
+      "formalNote": "Panh reconstructs his family's destruction under the Khmer Rouge using hand-carved clay figurines, because no images exist and none could be trusted. Subject, filmmaker, and survivor are one person."
+    },
+    {
+      "title": "Roger & Me",
+      "year": 1989,
+      "director": "Michael Moore",
+      "kind": "FILM",
+      "tags": ["4.4"],
+      "watchFirst": true,
+      "formalNote": "The ambush quest as structure: Moore's failed attempts to meet GM's CEO organize the whole film."
+    },
+    {
+      "title": "Kurt & Courtney",
+      "year": 1998,
+      "director": "Nick Broomfield",
+      "kind": "FILM",
+      "tags": ["4.4"],
+      "watchFirst": false,
+      "formalNote": "The process of failing to make the film becomes the film: boom mic in shot, phone calls on camera, doors closing."
+    },
+    {
+      "title": "Biggie & Tupac",
+      "year": 2002,
+      "director": "Nick Broomfield",
+      "kind": "FILM",
+      "tags": ["4.4"],
+      "watchFirst": false,
+      "formalNote": "Broomfield's performative investigation mode: the pursuit on camera is the story."
+    },
+    {
+      "title": "Louis Theroux's Weird Weekends",
+      "year": 1998,
+      "director": "Louis Theroux",
+      "kind": "SERIES",
+      "tags": ["4.4"],
+      "watchFirst": false,
+      "formalNote": "The faux-naive persona that lets subjects reveal themselves by explaining things to an apparently harmless man."
+    },
+    {
+      "title": "No Other Land",
+      "year": 2024,
+      "director": "Basel Adra, Yuval Abraham, Hamdan Ballal, Rachel Szor",
+      "kind": "FILM",
+      "tags": ["4.5"],
+      "watchFirst": true,
+      "formalNote": "A Palestinian-Israeli collective co-directs the destruction of Masafer Yatta, with the friendship and asymmetry between Adra and Abraham examined inside the film."
+    },
+    {
+      "title": "The Fogo Process",
+      "year": 1967,
+      "director": "Colin Low",
+      "kind": "BODY_OF_WORK",
+      "tags": ["4.5"],
+      "watchFirst": false,
+      "formalNote": "The historical root of participatory video: 27 short films made with Fogo Island fishermen, screened back to the community and to government, with the feedback loop changing policy. A methodology to study rather than a single film.",
+      "noTmdb": true
+    },
+    {
+      "title": "Tickled",
+      "year": 2016,
+      "director": "David Farrier, Dylan Reeve",
+      "kind": "FILM",
+      "tags": ["4.6"],
+      "watchFirst": true,
+      "formalNote": "A quirky story about competitive tickling turns into legal threats, private investigators, and the subject actively hunting the filmmakers during production. The film documents its own besiegement."
+    },
+    {
+      "title": "Catfish",
+      "year": 2010,
+      "director": "Henry Joost, Ariel Schulman",
+      "kind": "FILM",
+      "tags": ["4.6"],
+      "watchFirst": false,
+      "formalNote": "The filmmakers' relationship with their subject inverts when they discover the deception; the confrontation is handled with unexpected tenderness."
+    },
+    {
+      "title": "Val",
+      "year": 2021,
+      "director": "Ting Poo, Leo Scott",
+      "kind": "FILM",
+      "tags": ["4.7"],
+      "watchFirst": true,
+      "formalNote": "Built from Val Kilmer's decades of self-shot video, narrated by his son in his father's cadence. The archive is the subject's own lifelong self-documentation."
+    },
+    {
+      "title": "NYT Op-Docs",
+      "year": null,
+      "director": null,
+      "kind": "INSTITUTION",
+      "tags": ["5.1"],
+      "watchFirst": true,
+      "formalNote": "The commissioned short as an opinion page in film form. Publishes free online. Watching ten is the fastest education in what short nonfiction can do.",
+      "noTmdb": true
+    },
+    {
+      "title": "Field of Vision",
+      "year": null,
+      "director": null,
+      "kind": "INSTITUTION",
+      "tags": ["5.1"],
+      "watchFirst": true,
+      "formalNote": "Co-founded by Laura Poitras: the commissioned short as urgent political cinema. Publishes free online.",
+      "noTmdb": true
+    },
+    {
+      "title": "A Love Song for Latasha",
+      "year": 2020,
+      "director": "Sophia Nahli Allison",
+      "kind": "FILM",
+      "tags": ["5.1"],
+      "watchFirst": false,
+      "formalNote": "A murdered girl remembered through dreamlike reconstruction and the voices of those who loved her, refusing news-story framing entirely. What lyricism can do in under twenty minutes."
+    },
+    {
+      "title": "The Elephant Whisperers",
+      "year": 2022,
+      "director": "Kartiki Gonsalves",
+      "kind": "FILM",
+      "tags": ["5.1"],
+      "watchFirst": false,
+      "formalNote": "The Netflix-era prestige short: feature-quality cinematography compressed, Oscar winner, and a case study in the 40-minute ceiling."
+    },
+    {
+      "title": "60 Second Docs",
+      "year": null,
+      "director": null,
+      "kind": "INSTITUTION",
+      "tags": ["5.2"],
+      "watchFirst": true,
+      "formalNote": "The institutionalized micro-doc: one subject, one minute, hard structural formula (hook, character, turn, button). Hundreds of episodes make the formula legible fast.",
+      "noTmdb": true
+    },
+    {
+      "title": "O.J.: Made in America",
+      "year": 2016,
+      "director": "Ezra Edelman",
+      "kind": "SERIES",
+      "tags": ["5.3"],
+      "watchFirst": true,
+      "formalNote": "Nearly eight hours that uses length to fuse biography, city history, and race in America into one argument. Won the Oscar as a film, after which the Academy banned multi-part works."
+    },
+    {
+      "title": "The Last Dance",
+      "year": 2020,
+      "director": "Jason Hehir",
+      "kind": "SERIES",
+      "tags": ["5.3"],
+      "watchFirst": false,
+      "formalNote": "The access-deal series: Jordan's production company held sway over the archive, making it the key case study in what access costs editorially."
+    },
+    {
+      "title": "Tie Xi Qu: West of the Tracks",
+      "year": 2002,
+      "director": "Wang Bing",
+      "kind": "FILM",
+      "tags": ["5.4"],
+      "watchFirst": true,
+      "formalNote": "Nine hours on the death of a Chinese industrial district. Duration is the argument: deindustrialization cannot be understood in ninety minutes.",
+      "search": { "query": "Tie Xi Qu: West of the Tracks", "year": 2002 }
+    },
+    {
+      "title": "NRK Slow TV",
+      "year": 2009,
+      "director": null,
+      "kind": "INSTITUTION",
+      "tags": ["5.4"],
+      "watchFirst": false,
+      "formalNote": "Seven unbroken hours of a train journey; 134 hours of a coastal voyage, live, watched by half of Norway. Broadcast duration as national campfire.",
+      "noTmdb": true
+    },
+    {
+      "title": "Bear 71",
+      "year": 2012,
+      "director": "Leanne Allison, Jeremy Mendes",
+      "kind": "FILM",
+      "tags": ["5.5"],
+      "watchFirst": true,
+      "formalNote": "A grizzly tracked by trail cameras, narrated in first person, navigated by the user through a surveillance-grid interface. Still the best argument for the interactive form."
+    },
+    {
+      "title": "Highrise",
+      "year": 2010,
+      "director": "Katerina Cizek",
+      "kind": "BODY_OF_WORK",
+      "tags": ["5.5", "4.5"],
+      "watchFirst": false,
+      "formalNote": "Multi-year NFB interactive project on vertical living worldwide; also a landmark of co-creation methodology.",
+      "noTmdb": true
+    },
+    {
+      "title": "Welcome to Pine Point",
+      "year": 2011,
+      "director": "The Goggles",
+      "kind": "FILM",
+      "tags": ["5.5"],
+      "watchFirst": false,
+      "formalNote": "A vanished mining town remembered as an interactive scrapbook. The lesson of the category: platform dependency killed many of these works."
+    },
+    {
+      "title": "Clouds Over Sidra",
+      "year": 2015,
+      "director": "Gabo Arora, Chris Milk",
+      "kind": "FILM",
+      "tags": ["5.6"],
+      "watchFirst": false,
+      "formalNote": "360-degree portrait of a Syrian girl in Za'atari camp, screened to donors and credited with measurably increasing pledges. The founding case for VR as an advocacy format."
+    },
+    {
+      "title": "Notes on Blindness: Into Darkness",
+      "year": 2016,
+      "director": null,
+      "kind": "FILM",
+      "tags": ["5.6"],
+      "watchFirst": false,
+      "formalNote": "Companion VR to the feature, rendering John Hull's audio diaries as spatial sound and dissolving imagery. Form matches subject: what the world is when built from hearing."
+    },
+    {
+      "title": "Carne y Arena",
+      "year": 2017,
+      "director": "Alejandro G. Inarritu",
+      "kind": "FILM",
+      "tags": ["5.6"],
+      "watchFirst": false,
+      "formalNote": "Walk-through installation putting one visitor at a time inside a border crossing. Received a special Oscar; the museum piece as documentary venue."
+    },
+    {
+      "title": "Life in a Day",
+      "year": 2011,
+      "director": "Kevin Macdonald",
+      "kind": "FILM",
+      "tags": ["5.7"],
+      "watchFirst": true,
+      "formalNote": "Assembled from 80,000 YouTube submissions filmed on a single day worldwide. The edit finds a day-shaped arc in the planet's home footage."
+    },
+    {
+      "title": "Life in a Day 2020",
+      "year": 2021,
+      "director": "Kevin Macdonald",
+      "kind": "FILM",
+      "tags": ["5.7"],
+      "watchFirst": false,
+      "formalNote": "The deliberate time-capsule repeat of the 2011 open-call experiment, a decade later."
+    },
+    {
+      "title": "Symbiopsychotaxiplasm: Take One",
+      "year": 1968,
+      "director": "William Greaves",
+      "kind": "FILM",
+      "tags": ["unclassified"],
+      "watchFirst": false,
+      "formalNote": "A film about its own making, layered crews filming each other. Possibly its own category of recursive documentary."
+    },
+    {
+      "title": "All Light, Everywhere",
+      "year": 2021,
+      "director": "Theo Anthony",
+      "kind": "FILM",
+      "tags": ["unclassified"],
+      "watchFirst": false,
+      "formalNote": "Essay on cameras, surveillance, and the blind spot in vision itself. Technique and subject collapse into each other."
+    },
+    {
+      "title": "Austerlitz",
+      "year": 2016,
+      "director": "Sergei Loznitsa",
+      "kind": "FILM",
+      "tags": ["unclassified"],
+      "watchFirst": false,
+      "formalNote": "Fixed cameras silently watching tourists at concentration camp memorials. Durational observation as moral question."
+    },
+    {
+      "title": "Militantropos",
+      "year": 2025,
+      "director": "Tabor Collective",
+      "kind": "FILM",
+      "tags": ["unclassified"],
+      "watchFirst": false,
+      "formalNote": "Ukraine war doc noted at Cannes for inventive cinematography. Needs watching to place."
+    },
+    {
+      "title": "Predators",
+      "year": 2025,
+      "director": "David Osit",
+      "kind": "FILM",
+      "tags": ["unclassified"],
+      "watchFirst": false,
+      "formalNote": "Interrogates To Catch a Predator and its vigilante descendants. Reportedly formally rigorous media-archaeology."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:../data/atlas.db"
+}
+
+model Film {
+  id            Int       @id @default(autoincrement())
+  tmdbId        Int?      @unique
+  imdbId        String?
+  kind          String    @default("FILM") // FILM | SERIES | BODY_OF_WORK | INSTITUTION
+  title         String
+  year          Int?
+  director      String?
+  runtimeMin    Int?
+  overview      String?   // TMDB synopsis
+  formalNote    String?   // MY note: what is formally interesting (from atlas or scanner)
+  posterPath    String?
+  backdropPaths String?   // JSON array of TMDB image paths
+  trailerKey    String?   // YouTube key
+  watchZA       String?   // JSON of ZA watch providers
+  watchFirst    Boolean   @default(false) // the star markers from the atlas
+  seen          Boolean   @default(false)
+  viewingNotes  String?
+  source        String    @default("atlas") // atlas | scanner | manual
+  createdAt     DateTime  @default(now())
+  tags          FilmTag[]
+}
+
+model TagGroup {
+  id    Int    @id @default(autoincrement())
+  key   String @unique // axis1 .. axis5, special
+  name  String         // "Filming technique as the story", etc.
+  tags  Tag[]
+}
+
+model Tag {
+  id        Int       @id @default(autoincrement())
+  key       String    @unique // e.g. "1.3-subject-cameras"
+  name      String    // "Cameras given to subjects"
+  groupId   Int
+  group     TagGroup  @relation(fields: [groupId], references: [id])
+  films     FilmTag[]
+}
+
+model FilmTag {
+  filmId Int
+  tagId  Int
+  film   Film @relation(fields: [filmId], references: [id])
+  tag    Tag  @relation(fields: [tagId], references: [id])
+  @@id([filmId, tagId])
+}
+
+model ScanCandidate {
+  id           Int      @id @default(autoincrement())
+  tmdbId       Int?     @unique
+  title        String
+  year         Int?
+  sourceUrl    String?  // where the scanner found it
+  sourceName   String?  // "TMDB discover" | "IDFA 2026" | "RealScreen" ...
+  suggestedTags String? // JSON array of tag keys from Claude
+  formalNote   String?  // Claude's one-line "what's formally interesting"
+  confidence   String?  // high | medium | low
+  status       String   @default("pending") // pending | approved | rejected
+  createdAt    DateTime @default(now())
+}
