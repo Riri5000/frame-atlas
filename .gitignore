@@ -1,7 +1,6 @@
 node_modules/
 .next/
 .env
-data/atlas.db
 data/atlas.db-journal
 data/match-report.json
 .DS_Store
