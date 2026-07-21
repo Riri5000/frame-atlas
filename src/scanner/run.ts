@@ -3,6 +3,7 @@
 // and writes ScanCandidate rows. Never writes to Film directly.
 
 import { prisma } from "@/lib/db";
+import { movieDetails } from "@/lib/tmdb";
 import { tmdbDiscoverSource } from "./sources/tmdbDiscover";
 import { pressSource } from "./sources/press";
 import { festivalsSource } from "./sources/festivals";
@@ -13,9 +14,49 @@ export type ScanSummary = {
   found: number;
   new: number;
   tagged: number;
+  retagged: number;
   taggerActive: boolean;
   bySource: Record<string, number>;
 };
+
+// Pending candidates written while no Anthropic key was configured have
+// confidence null. Once a key exists, backfill their tags; overview comes
+// from TMDB since it is not persisted on ScanCandidate.
+async function retagPending(): Promise<number> {
+  if (!taggerAvailable()) return 0;
+  const untagged = await prisma.scanCandidate.findMany({
+    where: { status: "pending", confidence: null },
+  });
+  let done = 0;
+  for (const candidate of untagged) {
+    let overview: string | null = null;
+    if (candidate.tmdbId) {
+      overview = await movieDetails(candidate.tmdbId)
+        .then((d) => d.overview ?? null)
+        .catch(() => null);
+    }
+    const result = await tagCandidate({
+      tmdbId: candidate.tmdbId,
+      title: candidate.title,
+      year: candidate.year,
+      overview,
+      sourceUrl: candidate.sourceUrl,
+      sourceName: candidate.sourceName ?? "unknown",
+    });
+    if (!result) continue;
+    await prisma.scanCandidate.update({
+      where: { id: candidate.id },
+      data: {
+        suggestedTags: JSON.stringify(result.tags),
+        formalNote: result.formalNote,
+        confidence: result.confidence,
+      },
+    });
+    done++;
+  }
+  if (untagged.length > 0) console.log(`scan: retagged ${done} of ${untagged.length} pending`);
+  return done;
+}
 
 export async function runScan(): Promise<ScanSummary> {
   const sources: Array<[string, () => Promise<SourceCandidate[]>]> = [
@@ -61,6 +102,7 @@ export async function runScan(): Promise<ScanSummary> {
     found: unique.length,
     new: fresh.length,
     tagged: 0,
+    retagged: 0,
     taggerActive: taggerAvailable(),
     bySource: {},
   };
@@ -84,8 +126,11 @@ export async function runScan(): Promise<ScanSummary> {
     summary.bySource[candidate.sourceName] = (summary.bySource[candidate.sourceName] ?? 0) + 1;
   }
 
+  summary.retagged = await retagPending();
+
   console.log(
-    `scan: done. ${summary.found} found, ${summary.new} new, ${summary.tagged} tagged ` +
+    `scan: done. ${summary.found} found, ${summary.new} new, ${summary.tagged} tagged, ` +
+      `${summary.retagged} retagged ` +
       `(tagger ${summary.taggerActive ? "active" : "inactive, no ANTHROPIC_API_KEY"})`
   );
   return summary;
