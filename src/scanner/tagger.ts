@@ -80,6 +80,86 @@ export function taggerAvailable(): boolean {
   return Boolean(process.env.ANTHROPIC_API_KEY);
 }
 
+// Deep pass for candidates whose synopsis alone showed nothing formally
+// notable. Claude searches the web for reviews and festival coverage of the
+// film, then applies the same taxonomy with the same strict JSON contract.
+export async function researchCandidate(candidate: SourceCandidate): Promise<TagResult | null> {
+  if (!taggerAvailable()) return null;
+
+  const { systemPrompt, keyMap } = await taxonomy();
+  const client = new Anthropic();
+
+  const researchInstructions =
+    "\n\nFor this film the synopsis alone was inconclusive. Search the web for" +
+    " reviews, festival program notes, or interviews about this specific film" +
+    " (verify title AND year match before trusting a source). Base your tags on" +
+    " what critics describe about its form: how it is shot, structured, and" +
+    " what the filmmaker-subject relationship is. If coverage is thin or the" +
+    " film is formally conventional, return tags: [] and confidence: \"low\".";
+
+  const userContent = [
+    `Title: ${candidate.title}`,
+    `Year: ${candidate.year ?? "unknown"}`,
+    `Source: ${candidate.sourceName}`,
+    `Synopsis: ${candidate.overview ?? "(none available)"}`,
+  ].join("\n");
+
+  try {
+    let messages: Anthropic.MessageParam[] = [{ role: "user", content: userContent }];
+    let response = await client.messages.create({
+      model: MODEL,
+      max_tokens: 2000,
+      system: systemPrompt + researchInstructions,
+      tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 4 }],
+      messages,
+    });
+
+    // Server-side tool loops can pause; resend to let the server resume.
+    for (let i = 0; i < 4 && response.stop_reason === "pause_turn"; i++) {
+      messages = [...messages, { role: "assistant", content: response.content }];
+      response = await client.messages.create({
+        model: MODEL,
+        max_tokens: 2000,
+        system: systemPrompt + researchInstructions,
+        tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 4 }],
+        messages,
+      });
+    }
+
+    const text = response.content
+      .filter((b): b is Anthropic.TextBlock => b.type === "text")
+      .map((b) => b.text)
+      .join("");
+    const parsed = extractJson(text) as {
+      tags?: unknown;
+      formalNote?: unknown;
+      confidence?: unknown;
+    } | null;
+    if (!parsed) return null;
+
+    const tags = Array.isArray(parsed.tags)
+      ? parsed.tags
+          .map((t) => (typeof t === "string" ? keyMap.get(t.trim()) : undefined))
+          .filter((t): t is string => Boolean(t))
+      : [];
+    const confidence =
+      parsed.confidence === "high" || parsed.confidence === "medium" || parsed.confidence === "low"
+        ? parsed.confidence
+        : "low";
+    const formalNote =
+      typeof parsed.formalNote === "string" && parsed.formalNote.trim().length > 0
+        ? parsed.formalNote.trim()
+        : null;
+
+    return { tags, formalNote, confidence };
+  } catch (err) {
+    console.warn(
+      `research: failed for ${candidate.title}: ${err instanceof Error ? err.message : err}`
+    );
+    return null;
+  }
+}
+
 export async function tagCandidate(candidate: SourceCandidate): Promise<TagResult | null> {
   if (!taggerAvailable()) return null;
 
